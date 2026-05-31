@@ -23,30 +23,30 @@ export const friendsPageConfig: FriendsPageConfig = {
 // 友链配置
 export const friendsConfig: FriendLink[] = [
 	{
-		title: "夏夜流萤",
+		title: "鱼籽的Minecraft服务器网站",
 		imgurl:
-			"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
-		desc: "飞萤之火自无梦的长夜亮起，绽放在终竟的明天。",
-		siteurl: "https://blog.cuteleaf.cn",
-		tags: ["Blog"],
+			"https://image.299967.xyz/file/1780203871784_minecraft.PNG",
+		desc: "欸！云朵...",
+		siteurl: "https://www.299967.xyz",
+		tags: ["Minecraft"],
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
 	},
 	{
-		title: "Firefly Docs",
-		imgurl: "https://docs-firefly.cuteleaf.cn/logo.png",
-		desc: "Firefly主题模板文档",
-		siteurl: "https://docs-firefly.cuteleaf.cn",
-		tags: ["Docs"],
+		title: "鱼籽的Image图床",
+		imgurl: "https://image.299967.xyz/file/1780204037916_imgbed.png",
+		desc: "原神！启动！",
+		siteurl: "https://image.299967.xyz",
+		tags: ["image"],
 		weight: 9,
 		enabled: true,
 	},
 	{
-		title: "Astro",
-		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
-		desc: "The web framework for content-driven websites. ⭐️ Star to support our work!",
-		siteurl: "https://github.com/withastro/astro",
-		tags: ["Framework"],
+		title: "鱼籽的QQ群聊",
+		imgurl: "https://image.299967.xyz/file/1780204450374_QQ.jpg",
+		desc: "最新福利！加群送猫娘",
+		siteurl: "https://qm.qq.com/q/ZoqhdqKSk4",
+		tags: ["QQ群聊"],
 		weight: 8,
 		enabled: true,
 	},

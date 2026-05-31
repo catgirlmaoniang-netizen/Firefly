@@ -26,7 +26,7 @@ export const sponsorConfig: SponsorConfig = {
 			name: "支付宝",
 			icon: "fa7-brands:alipay",
 			// 收款码图片路径（需要放在 public 目录下）
-			qrCode: "/assets/images/sponsor/alipay.png",
+			qrCode: "/assets/images/sponsor/alipay.PNG",
 			link: "",
 			description: "使用 支付宝 扫码赞助",
 			enabled: true,
@@ -34,25 +34,9 @@ export const sponsorConfig: SponsorConfig = {
 		{
 			name: "微信",
 			icon: "fa7-brands:weixin",
-			qrCode: "/assets/images/sponsor/wechat.png",
+			qrCode: "/assets/images/sponsor/wechat.PNG",
 			link: "",
 			description: "使用 微信 扫码赞助",
-			enabled: true,
-		},
-		{
-			name: "ko-fi",
-			icon: "simple-icons:kofi",
-			qrCode: "",
-			link: "https://ko-fi.com/cuteleaf",
-			description: "Buy a Coffee for Firefly",
-			enabled: true,
-		},
-		{
-			name: "爱发电",
-			icon: "simple-icons:afdian",
-			qrCode: "",
-			link: "https://ifdian.net/a/cuteleaf",
-			description: "通过 爱发电 进行赞助",
 			enabled: true,
 		},
 	],
@@ -61,19 +45,33 @@ export const sponsorConfig: SponsorConfig = {
 	sponsors: [
 		// 示例：已实名赞助者
 		{
-			name: "夏叶",
+			name: "Baka加百列",
 			avatar:
-				"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
+				"https://image.299967.xyz/file/1780205001827_b_13a95044d92d2256817ca478953ce15c.jpg",
+			amount: "¥100",
+			date: "2026-05-15",
+		},
+		{
+			name: "苒Ziling8345",
+			avatar:
+				"https://image.299967.xyz/file/1780205076206_b_f2e5245ad634e0a68d9a2e17e706b7c7.jpg",
+			amount: "¥90",
+			date: "2026-05-22",
+		},
+		{
+			name: "LZR旬欢",
+			avatar:
+				"https://image.299967.xyz/file/1780205167404_b_8060e9d45eb4f605436fe840712b628b.jpg",
 			amount: "¥50",
-			date: "2025-10-01",
+			date: "2026-05-15",
 		},
 
 		// 示例：匿名赞助者
 		{
-			name: "匿名用户",
+			name: "占位",
 			// avatar: "",
-			amount: "¥20",
-			date: "2025-10-01",
+			amount: "¥9999999999999999999",
+			date: "2999-01-01",
 		},
 	],
 };
