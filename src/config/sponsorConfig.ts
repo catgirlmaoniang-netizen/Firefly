@@ -55,8 +55,8 @@ export const sponsorConfig: SponsorConfig = {
 			name: "苒Ziling8345",
 			avatar:
 				"https://image.299967.xyz/file/1780205076206_b_f2e5245ad634e0a68d9a2e17e706b7c7.jpg",
-			amount: "¥90",
-			date: "2026-05-22",
+			amount: "¥195",
+			date: "2026-06-17",
 		},
 		{
 			name: "LZR旬欢",
