@@ -77,8 +77,15 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				external: true,
 				icon: "fa7-brands:qq",
 			},
+			{
+				name: "Microsoft",
+				url: "https://www.microsoft.com/zh-cn",
+				external: true,
+				icon: "fa7-brands:microsoft",
+			},
 		],
 	});
+	
 
 	// 仅返回链接，其它导航搜索相关配置在模块顶层常量中独立导出
 	return { links } as NavBarConfig;
